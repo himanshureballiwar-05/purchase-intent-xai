@@ -1,0 +1,5 @@
+[browser]
+gatherUsageStats = false   # no "Email:" prompt on first run
+
+[client]
+toolbarMode = "viewer"     # hides the developer toolbar / Deploy button for a cleaner demo

@@ -1,0 +1,149 @@
+{
+  "model_name": "catboost",
+  "strategy": "none",
+  "tuned": true,
+  "params": {
+    "learning_rate": 0.05,
+    "l2_leaf_reg": 7,
+    "iterations": 200,
+    "depth": 6
+  },
+  "threshold": 0.14,
+  "threshold_method": "max expected net value on out-of-fold train predictions",
+  "break_even_probability": 0.2,
+  "business_case": {
+    "value_per_conversion": 60.0,
+    "intervention_cost": 3.0,
+    "success_rate": 0.25
+  },
+  "use_page_values": true,
+  "input_columns": [
+    "Administrative",
+    "Administrative_Duration",
+    "Informational",
+    "Informational_Duration",
+    "ProductRelated",
+    "ProductRelated_Duration",
+    "BounceRates",
+    "ExitRates",
+    "PageValues",
+    "SpecialDay",
+    "Month",
+    "VisitorType",
+    "OperatingSystems",
+    "Browser",
+    "Region",
+    "TrafficType",
+    "Weekend"
+  ],
+  "cv_metrics": {
+    "roc_auc": 0.968754423465551,
+    "roc_auc_std": 0.0017514764953825601,
+    "pr_auc": 0.8498173836485388,
+    "pr_auc_std": 0.010075172565213099,
+    "recall": 0.7548018745462145,
+    "recall_std": 0.021282299934585445,
+    "precision": 0.7809530737032075,
+    "precision_std": 0.017716459507882358,
+    "f1": 0.7672034358146751,
+    "f1_std": 0.006430767039817626,
+    "accuracy": 0.9280208333333334,
+    "accuracy_std": 0.002093724087733528,
+    "fit_time_s": 0.8833824157714844
+  },
+  "test_metrics_at_0.5": {
+    "threshold": 0.5,
+    "pr_auc": 0.8625693834772216,
+    "recall": 0.7718832891246684,
+    "precision": 0.8016528925619835,
+    "f1": 0.7864864864864864,
+    "roc_auc": 0.9723484962716558,
+    "accuracy": 0.9341666666666667,
+    "tn": 1951,
+    "fp": 72,
+    "fn": 86,
+    "tp": 291
+  },
+  "test_metrics_at_threshold": {
+    "threshold": 0.14,
+    "pr_auc": 0.8625693834772216,
+    "recall": 0.9522546419098143,
+    "precision": 0.5875613747954174,
+    "f1": 0.7267206477732794,
+    "roc_auc": 0.9723484962716558,
+    "accuracy": 0.8875,
+    "tn": 1771,
+    "fp": 252,
+    "fn": 18,
+    "tp": 359
+  },
+  "baseline": {
+    "accuracy": 0.8429166666666666,
+    "recall": 0.0,
+    "pr_auc": 0.15708333333333332
+  },
+  "net_value_on_test": {
+    "chosen_threshold": 3552.0,
+    "default_0.5": 3276.0,
+    "flag_everyone": -1545.0,
+    "flag_nobody": 0.0
+  },
+  "n_train": 9600,
+  "n_test": 2400,
+  "positive_rate": 0.1571875,
+  "trained_at": "2026-11-09T05:29:27+00:00",
+  "python": "3.12.3",
+  "sklearn": "1.8.0",
+  "seed": 42,
+  "training_seconds": 203.1,
+  "ablation_page_values": {
+    "cv_pr_auc": 0.5290564810876542,
+    "test": {
+      "threshold": 0.5,
+      "pr_auc": 0.5569789072072366,
+      "recall": 0.41114058355437666,
+      "precision": 0.6224899598393574,
+      "f1": 0.4952076677316294,
+      "roc_auc": 0.8483382743017632,
+      "accuracy": 0.8683333333333333,
+      "tn": 1929,
+      "fp": 94,
+      "fn": 222,
+      "tp": 155
+    }
+  },
+  "top_features": [
+    {
+      "feature": "PageValues",
+      "mean_abs_shap": 2.5510518151657515
+    },
+    {
+      "feature": "ExitRates",
+      "mean_abs_shap": 0.2437675392321377
+    },
+    {
+      "feature": "ProductRelated",
+      "mean_abs_shap": 0.23504572474066823
+    },
+    {
+      "feature": "TotalPages",
+      "mean_abs_shap": 0.22067629973120959
+    },
+    {
+      "feature": "BounceRates",
+      "mean_abs_shap": 0.17054108022047992
+    },
+    {
+      "feature": "ProductRelated_Duration",
+      "mean_abs_shap": 0.08386204687125903
+    },
+    {
+      "feature": "TotalDuration",
+      "mean_abs_shap": 0.07795781546675432
+    },
+    {
+      "feature": "Administrative_Duration",
+      "mean_abs_shap": 0.0779307817115644
+    }
+  ]
+}

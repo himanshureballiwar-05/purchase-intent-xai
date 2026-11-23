@@ -1,0 +1,78 @@
+# Single source of truth for paths, parameters and column lists.
+# Change values HERE, not inside the code.
+project:
+  name: purchase-intent-xai
+  version: "1.0.0"
+  random_seed: 42
+
+paths:
+  dataset: dataset/ecommerce_sessions.csv
+  data_dictionary: dataset/data_dictionary.csv
+  artifacts_dir: models
+  reports_dir: reports
+  figures_dir: reports/figures
+  docs_dir: docs
+
+data:
+  target: Converted
+  test_size: 0.20
+  # Integer-coded IDs that are really CATEGORIES (not quantities)
+  id_categorical_columns: [OperatingSystems, Browser, Region, TrafficType]
+  categorical_columns: [Month, VisitorType, OperatingSystems, Browser, Region, TrafficType]
+  boolean_columns: [Weekend]
+  count_columns: [Administrative, Informational, ProductRelated]
+  duration_columns: [Administrative_Duration, Informational_Duration, ProductRelated_Duration]
+  rate_columns: [BounceRates, ExitRates, PageValues, SpecialDay]
+  raw_numeric_columns:
+    - Administrative
+    - Administrative_Duration
+    - Informational
+    - Informational_Duration
+    - ProductRelated
+    - ProductRelated_Duration
+    - BounceRates
+    - ExitRates
+    - PageValues
+    - SpecialDay
+
+features:
+  # PageValues is checkout-proximal. Set to false to build an "early-scoring"
+  # model that does not depend on it (see docs/model_documentation.md).
+  use_page_values: true
+  engineered:
+    - TotalPages
+    - TotalDuration
+    - AvgTimePerPage
+    - ProductPageShare
+    - TimePerProductPage
+    - IsReturning
+
+training:
+  cv_folds: 5
+  n_jobs: 1
+  # imbalance strategies benchmarked: smote | class_weight | none
+  imbalance_strategies: [smote, class_weight, none]
+  models: [logistic_regression, decision_tree, random_forest, xgboost, lightgbm, catboost]
+  tune_top_k: 2
+  tune_iterations: 10
+  selection_metric: average_precision   # PR-AUC
+
+business:
+  # Expected value of flagging a session for an intervention (discount nudge etc.)
+  value_per_conversion: 60.0        # revenue/margin of a captured purchase
+  intervention_cost: 3.0            # cost of one nudge
+  intervention_success_rate: 0.25   # share of flagged would-be buyers the nudge actually saves
+
+explain:
+  background_size: 500
+  top_k: 5
+  lime_num_features: 8
+
+api:
+  title: Purchase Intent Prediction API
+  top_k_contributors: 5
+
+mlflow:
+  tracking_uri: sqlite:///mlflow.db
+  experiment_name: purchase-intent-xai
+  registered_model_name: purchase-intent-classifier

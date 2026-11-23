@@ -1,0 +1,695 @@
+[
+  {
+    "threshold": 0.01,
+    "precision": 0.41854636591478694,
+    "recall": 0.9960238568588469,
+    "flagged": 3591,
+    "net_value": 11772.0
+  },
+  {
+    "threshold": 0.02,
+    "precision": 0.45039085989176186,
+    "recall": 0.9927104042412194,
+    "flagged": 3326,
+    "net_value": 12492.0
+  },
+  {
+    "threshold": 0.03,
+    "precision": 0.4751434034416826,
+    "recall": 0.9880715705765407,
+    "flagged": 3138,
+    "net_value": 12951.0
+  },
+  {
+    "threshold": 0.04,
+    "precision": 0.4910596026490066,
+    "recall": 0.9827700463883366,
+    "flagged": 3020,
+    "net_value": 13185.0
+  },
+  {
+    "threshold": 0.05,
+    "precision": 0.5035799522673031,
+    "recall": 0.9787939032471835,
+    "flagged": 2933,
+    "net_value": 13356.0
+  },
+  {
+    "threshold": 0.060000000000000005,
+    "precision": 0.5152792413066386,
+    "recall": 0.9721669980119284,
+    "flagged": 2847,
+    "net_value": 13464.0
+  },
+  {
+    "threshold": 0.06999999999999999,
+    "precision": 0.5249551166965889,
+    "recall": 0.9688535453943009,
+    "flagged": 2785,
+    "net_value": 13575.0
+  },
+  {
+    "threshold": 0.08,
+    "precision": 0.533235938641344,
+    "recall": 0.9675281643472499,
+    "flagged": 2738,
+    "net_value": 13686.0
+  },
+  {
+    "threshold": 0.09,
+    "precision": 0.5409410892923305,
+    "recall": 0.9675281643472499,
+    "flagged": 2699,
+    "net_value": 13803.0
+  },
+  {
+    "threshold": 0.09999999999999999,
+    "precision": 0.5489826676714393,
+    "recall": 0.9655400927766733,
+    "flagged": 2654,
+    "net_value": 13893.0
+  },
+  {
+    "threshold": 0.11,
+    "precision": 0.5557684936757379,
+    "recall": 0.9609012591119946,
+    "flagged": 2609,
+    "net_value": 13923.0
+  },
+  {
+    "threshold": 0.12,
+    "precision": 0.5624270711785297,
+    "recall": 0.9582504970178927,
+    "flagged": 2571,
+    "net_value": 13977.0
+  },
+  {
+    "threshold": 0.13,
+    "precision": 0.5701823949246629,
+    "recall": 0.9529489728296885,
+    "flagged": 2522,
+    "net_value": 14004.0
+  },
+  {
+    "threshold": 0.14,
+    "precision": 0.5793298344771901,
+    "recall": 0.950960901259112,
+    "flagged": 2477,
+    "net_value": 14094.0
+  },
+  {
+    "threshold": 0.15000000000000002,
+    "precision": 0.5851456709068527,
+    "recall": 0.9449966865473823,
+    "flagged": 2437,
+    "net_value": 14079.0
+  },
+  {
+    "threshold": 0.16,
+    "precision": 0.5909661229611042,
+    "recall": 0.9363817097415507,
+    "flagged": 2391,
+    "net_value": 14022.0
+  },
+  {
+    "threshold": 0.17,
+    "precision": 0.598804950917627,
+    "recall": 0.9297548045062956,
+    "flagged": 2343,
+    "net_value": 14016.0
+  },
+  {
+    "threshold": 0.18000000000000002,
+    "precision": 0.6057441253263708,
+    "recall": 0.9224652087475149,
+    "flagged": 2298,
+    "net_value": 13986.0
+  },
+  {
+    "threshold": 0.19,
+    "precision": 0.6152482269503546,
+    "recall": 0.9198144466534128,
+    "flagged": 2256,
+    "net_value": 14052.0
+  },
+  {
+    "threshold": 0.2,
+    "precision": 0.6230248306997742,
+    "recall": 0.9145129224652088,
+    "flagged": 2215,
+    "net_value": 14055.0
+  },
+  {
+    "threshold": 0.21000000000000002,
+    "precision": 0.6288990825688073,
+    "recall": 0.9085487077534792,
+    "flagged": 2180,
+    "net_value": 14025.0
+  },
+  {
+    "threshold": 0.22,
+    "precision": 0.6350534635053463,
+    "recall": 0.9052352551358516,
+    "flagged": 2151,
+    "net_value": 14037.0
+  },
+  {
+    "threshold": 0.23,
+    "precision": 0.6422840962718264,
+    "recall": 0.901921802518224,
+    "flagged": 2119,
+    "net_value": 14058.0
+  },
+  {
+    "threshold": 0.24000000000000002,
+    "precision": 0.6469465648854962,
+    "recall": 0.8986083499005965,
+    "flagged": 2096,
+    "net_value": 14052.0
+  },
+  {
+    "threshold": 0.25,
+    "precision": 0.6519631604459525,
+    "recall": 0.8913187541418157,
+    "flagged": 2063,
+    "net_value": 13986.0
+  },
+  {
+    "threshold": 0.26,
+    "precision": 0.6602373887240356,
+    "recall": 0.8846918489065606,
+    "flagged": 2022,
+    "net_value": 13959.0
+  },
+  {
+    "threshold": 0.27,
+    "precision": 0.6648296593186372,
+    "recall": 0.8793903247183565,
+    "flagged": 1996,
+    "net_value": 13917.0
+  },
+  {
+    "threshold": 0.28,
+    "precision": 0.6713995943204868,
+    "recall": 0.87740225314778,
+    "flagged": 1972,
+    "net_value": 13944.0
+  },
+  {
+    "threshold": 0.29000000000000004,
+    "precision": 0.6771208226221079,
+    "recall": 0.8727634194831014,
+    "flagged": 1945,
+    "net_value": 13920.0
+  },
+  {
+    "threshold": 0.3,
+    "precision": 0.6810613943808532,
+    "recall": 0.8674618952948973,
+    "flagged": 1922,
+    "net_value": 13869.0
+  },
+  {
+    "threshold": 0.31,
+    "precision": 0.6878643349231585,
+    "recall": 0.8601722995361166,
+    "flagged": 1887,
+    "net_value": 13809.0
+  },
+  {
+    "threshold": 0.32,
+    "precision": 0.6923488496522204,
+    "recall": 0.8575215374420145,
+    "flagged": 1869,
+    "net_value": 13803.0
+  },
+  {
+    "threshold": 0.33,
+    "precision": 0.6990238611713666,
+    "recall": 0.854208084824387,
+    "flagged": 1844,
+    "net_value": 13803.0
+  },
+  {
+    "threshold": 0.34,
+    "precision": 0.703622392974753,
+    "recall": 0.8495692511597084,
+    "flagged": 1822,
+    "net_value": 13764.0
+  },
+  {
+    "threshold": 0.35000000000000003,
+    "precision": 0.7082640044370494,
+    "recall": 0.8462557985420809,
+    "flagged": 1803,
+    "net_value": 13746.0
+  },
+  {
+    "threshold": 0.36000000000000004,
+    "precision": 0.7129994372537986,
+    "recall": 0.8396288933068257,
+    "flagged": 1777,
+    "net_value": 13674.0
+  },
+  {
+    "threshold": 0.37,
+    "precision": 0.715261958997722,
+    "recall": 0.832339297548045,
+    "flagged": 1756,
+    "net_value": 13572.0
+  },
+  {
+    "threshold": 0.38,
+    "precision": 0.7208092485549132,
+    "recall": 0.8263750828363154,
+    "flagged": 1730,
+    "net_value": 13515.0
+  },
+  {
+    "threshold": 0.39,
+    "precision": 0.7265258215962441,
+    "recall": 0.8204108681245859,
+    "flagged": 1704,
+    "net_value": 13458.0
+  },
+  {
+    "threshold": 0.4,
+    "precision": 0.7325789160214413,
+    "recall": 0.8151093439363817,
+    "flagged": 1679,
+    "net_value": 13413.0
+  },
+  {
+    "threshold": 0.41000000000000003,
+    "precision": 0.7362703681351841,
+    "recall": 0.8084824387011266,
+    "flagged": 1657,
+    "net_value": 13329.0
+  },
+  {
+    "threshold": 0.42000000000000004,
+    "precision": 0.7405372405372406,
+    "recall": 0.803843605036448,
+    "flagged": 1638,
+    "net_value": 13281.0
+  },
+  {
+    "threshold": 0.43,
+    "precision": 0.7442865966646078,
+    "recall": 0.7985420808482439,
+    "flagged": 1619,
+    "net_value": 13218.0
+  },
+  {
+    "threshold": 0.44,
+    "precision": 0.7498432601880878,
+    "recall": 0.7925778661365143,
+    "flagged": 1595,
+    "net_value": 13155.0
+  },
+  {
+    "threshold": 0.45,
+    "precision": 0.7565328234544296,
+    "recall": 0.7866136514247847,
+    "flagged": 1569,
+    "net_value": 13098.0
+  },
+  {
+    "threshold": 0.46,
+    "precision": 0.7603359173126615,
+    "recall": 0.7799867461895295,
+    "flagged": 1548,
+    "net_value": 13011.0
+  },
+  {
+    "threshold": 0.47000000000000003,
+    "precision": 0.762589928057554,
+    "recall": 0.7726971504307488,
+    "flagged": 1529,
+    "net_value": 12903.0
+  },
+  {
+    "threshold": 0.48000000000000004,
+    "precision": 0.7685676392572944,
+    "recall": 0.7680583167660703,
+    "flagged": 1508,
+    "net_value": 12861.0
+  },
+  {
+    "threshold": 0.49,
+    "precision": 0.775,
+    "recall": 0.7601060304837641,
+    "flagged": 1480,
+    "net_value": 12765.0
+  },
+  {
+    "threshold": 0.5,
+    "precision": 0.7801369863013699,
+    "recall": 0.75480450629556,
+    "flagged": 1460,
+    "net_value": 12705.0
+  },
+  {
+    "threshold": 0.51,
+    "precision": 0.7814661134163209,
+    "recall": 0.7488402915838304,
+    "flagged": 1446,
+    "net_value": 12612.0
+  },
+  {
+    "threshold": 0.52,
+    "precision": 0.7867698803659395,
+    "recall": 0.7408880053015242,
+    "flagged": 1421,
+    "net_value": 12507.0
+  },
+  {
+    "threshold": 0.53,
+    "precision": 0.7925340990667624,
+    "recall": 0.731610337972167,
+    "flagged": 1393,
+    "net_value": 12381.0
+  },
+  {
+    "threshold": 0.54,
+    "precision": 0.7979576951130561,
+    "recall": 0.7249834327369119,
+    "flagged": 1371,
+    "net_value": 12297.0
+  },
+  {
+    "threshold": 0.55,
+    "precision": 0.8019287833827893,
+    "recall": 0.7163684559310802,
+    "flagged": 1348,
+    "net_value": 12171.0
+  },
+  {
+    "threshold": 0.56,
+    "precision": 0.8069381598793364,
+    "recall": 0.7090788601722995,
+    "flagged": 1326,
+    "net_value": 12072.0
+  },
+  {
+    "threshold": 0.5700000000000001,
+    "precision": 0.8091954022988506,
+    "recall": 0.6998011928429424,
+    "flagged": 1305,
+    "net_value": 11925.0
+  },
+  {
+    "threshold": 0.5800000000000001,
+    "precision": 0.8150470219435737,
+    "recall": 0.6891981444665342,
+    "flagged": 1276,
+    "net_value": 11772.0
+  },
+  {
+    "threshold": 0.59,
+    "precision": 0.8189792663476874,
+    "recall": 0.6805831676607025,
+    "flagged": 1254,
+    "net_value": 11643.0
+  },
+  {
+    "threshold": 0.6,
+    "precision": 0.8246329526916802,
+    "recall": 0.6699801192842942,
+    "flagged": 1226,
+    "net_value": 11487.0
+  },
+  {
+    "threshold": 0.61,
+    "precision": 0.8312551953449709,
+    "recall": 0.6626905235255136,
+    "flagged": 1203,
+    "net_value": 11391.0
+  },
+  {
+    "threshold": 0.62,
+    "precision": 0.8361774744027304,
+    "recall": 0.6494367130550033,
+    "flagged": 1172,
+    "net_value": 11184.0
+  },
+  {
+    "threshold": 0.63,
+    "precision": 0.8398607484769365,
+    "recall": 0.6394963552021206,
+    "flagged": 1149,
+    "net_value": 11028.0
+  },
+  {
+    "threshold": 0.64,
+    "precision": 0.84,
+    "recall": 0.6262425447316103,
+    "flagged": 1125,
+    "net_value": 10800.0
+  },
+  {
+    "threshold": 0.65,
+    "precision": 0.8403967538322813,
+    "recall": 0.6176275679257787,
+    "flagged": 1109,
+    "net_value": 10653.0
+  },
+  {
+    "threshold": 0.66,
+    "precision": 0.8429752066115702,
+    "recall": 0.6083499005964215,
+    "flagged": 1089,
+    "net_value": 10503.0
+  },
+  {
+    "threshold": 0.67,
+    "precision": 0.8483412322274881,
+    "recall": 0.5931080185553347,
+    "flagged": 1055,
+    "net_value": 10260.0
+  },
+  {
+    "threshold": 0.68,
+    "precision": 0.8507317073170731,
+    "recall": 0.5778661365142479,
+    "flagged": 1025,
+    "net_value": 10005.0
+  },
+  {
+    "threshold": 0.6900000000000001,
+    "precision": 0.8558558558558559,
+    "recall": 0.5666003976143141,
+    "flagged": 999,
+    "net_value": 9828.0
+  },
+  {
+    "threshold": 0.7000000000000001,
+    "precision": 0.856701030927835,
+    "recall": 0.5506958250497018,
+    "flagged": 970,
+    "net_value": 9555.0
+  },
+  {
+    "threshold": 0.7100000000000001,
+    "precision": 0.8628691983122363,
+    "recall": 0.5420808482438702,
+    "flagged": 948,
+    "net_value": 9426.0
+  },
+  {
+    "threshold": 0.72,
+    "precision": 0.8672470076169749,
+    "recall": 0.5281643472498343,
+    "flagged": 919,
+    "net_value": 9198.0
+  },
+  {
+    "threshold": 0.73,
+    "precision": 0.8738839285714286,
+    "recall": 0.5188866799204771,
+    "flagged": 896,
+    "net_value": 9057.0
+  },
+  {
+    "threshold": 0.74,
+    "precision": 0.8812785388127854,
+    "recall": 0.5115970841616965,
+    "flagged": 876,
+    "net_value": 8952.0
+  },
+  {
+    "threshold": 0.75,
+    "precision": 0.8866822429906542,
+    "recall": 0.5029821073558648,
+    "flagged": 856,
+    "net_value": 8817.0
+  },
+  {
+    "threshold": 0.76,
+    "precision": 0.8966346153846154,
+    "recall": 0.4943671305500331,
+    "flagged": 832,
+    "net_value": 8694.0
+  },
+  {
+    "threshold": 0.77,
+    "precision": 0.8985148514851485,
+    "recall": 0.48111332007952284,
+    "flagged": 808,
+    "net_value": 8466.0
+  },
+  {
+    "threshold": 0.78,
+    "precision": 0.9025641025641026,
+    "recall": 0.4665341285619616,
+    "flagged": 780,
+    "net_value": 8220.0
+  },
+  {
+    "threshold": 0.79,
+    "precision": 0.9081225033288948,
+    "recall": 0.45195493704440026,
+    "flagged": 751,
+    "net_value": 7977.0
+  },
+  {
+    "threshold": 0.8,
+    "precision": 0.9132867132867133,
+    "recall": 0.43273691186216034,
+    "flagged": 715,
+    "net_value": 7650.0
+  },
+  {
+    "threshold": 0.81,
+    "precision": 0.9178674351585014,
+    "recall": 0.42213386348575216,
+    "flagged": 694,
+    "net_value": 7473.0
+  },
+  {
+    "threshold": 0.8200000000000001,
+    "precision": 0.9211309523809523,
+    "recall": 0.41020543406229293,
+    "flagged": 672,
+    "net_value": 7269.0
+  },
+  {
+    "threshold": 0.8300000000000001,
+    "precision": 0.9227202472952086,
+    "recall": 0.3956262425447316,
+    "flagged": 647,
+    "net_value": 7014.0
+  },
+  {
+    "threshold": 0.8400000000000001,
+    "precision": 0.927536231884058,
+    "recall": 0.3817097415506958,
+    "flagged": 621,
+    "net_value": 6777.0
+  },
+  {
+    "threshold": 0.85,
+    "precision": 0.925,
+    "recall": 0.36779324055666,
+    "flagged": 600,
+    "net_value": 6525.0
+  },
+  {
+    "threshold": 0.86,
+    "precision": 0.9283216783216783,
+    "recall": 0.3518886679920477,
+    "flagged": 572,
+    "net_value": 6249.0
+  },
+  {
+    "threshold": 0.87,
+    "precision": 0.9351851851851852,
+    "recall": 0.33465871438038436,
+    "flagged": 540,
+    "net_value": 5955.0
+  },
+  {
+    "threshold": 0.88,
+    "precision": 0.939922480620155,
+    "recall": 0.3214049039098741,
+    "flagged": 516,
+    "net_value": 5727.0
+  },
+  {
+    "threshold": 0.89,
+    "precision": 0.941908713692946,
+    "recall": 0.3008614976805832,
+    "flagged": 482,
+    "net_value": 5364.0
+  },
+  {
+    "threshold": 0.9,
+    "precision": 0.9439461883408071,
+    "recall": 0.27899271040424123,
+    "flagged": 446,
+    "net_value": 4977.0
+  },
+  {
+    "threshold": 0.91,
+    "precision": 0.9447115384615384,
+    "recall": 0.26043737574552683,
+    "flagged": 416,
+    "net_value": 4647.0
+  },
+  {
+    "threshold": 0.92,
+    "precision": 0.9526315789473684,
+    "recall": 0.23989396951623593,
+    "flagged": 380,
+    "net_value": 4290.0
+  },
+  {
+    "threshold": 0.93,
+    "precision": 0.9540229885057471,
+    "recall": 0.22001325381047052,
+    "flagged": 348,
+    "net_value": 3936.0
+  },
+  {
+    "threshold": 0.9400000000000001,
+    "precision": 0.9579288025889967,
+    "recall": 0.19615639496355203,
+    "flagged": 309,
+    "net_value": 3513.0
+  },
+  {
+    "threshold": 0.9500000000000001,
+    "precision": 0.9652509652509652,
+    "recall": 0.1656726308813784,
+    "flagged": 259,
+    "net_value": 2973.0
+  },
+  {
+    "threshold": 0.9600000000000001,
+    "precision": 0.972972972972973,
+    "recall": 0.14314115308151093,
+    "flagged": 222,
+    "net_value": 2574.0
+  },
+  {
+    "threshold": 0.97,
+    "precision": 0.9875776397515528,
+    "recall": 0.10536779324055666,
+    "flagged": 161,
+    "net_value": 1902.0
+  },
+  {
+    "threshold": 0.98,
+    "precision": 0.990909090909091,
+    "recall": 0.07223326706428099,
+    "flagged": 110,
+    "net_value": 1305.0
+  },
+  {
+    "threshold": 0.99,
+    "precision": 1.0,
+    "recall": 0.0291583830351226,
+    "flagged": 44,
+    "net_value": 528.0
+  }
+]

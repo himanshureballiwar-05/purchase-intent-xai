@@ -1,0 +1,26 @@
+# One command to run everything:  docker compose up --build
+services:
+  api:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.api
+    image: purchase-intent-api:1.0.0
+    ports:
+      - "8000:8000"
+    environment:
+      - LOG_LEVEL=${LOG_LEVEL:-INFO}
+    restart: unless-stopped
+
+  dashboard:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.dashboard
+    image: purchase-intent-dashboard:1.0.0
+    ports:
+      - "8501:8501"
+    environment:
+      - LOG_LEVEL=${LOG_LEVEL:-INFO}
+    depends_on:
+      api:
+        condition: service_healthy
+    restart: unless-stopped
